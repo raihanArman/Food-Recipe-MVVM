@@ -1,0 +1,16 @@
+id/co/foodrecipe/BR.java
+ id.co.foodrecipe.BR
+id/co/foodrecipe/DataBinderMapperImpl.java
+ id.co.foodrecipe.DataBinderMapperImpl
+ id.co.foodrecipe.DataBinderMapperImpl$InnerBrLookup
+ id.co.foodrecipe.DataBinderMapperImpl$InnerLayoutIdLookup
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+id/co/foodrecipe/BuildConfig.java
+ id.co.foodrecipe.BuildConfig
+id/co/foodrecipe/DataBindingTriggerClass.java
+ id.co.foodrecipe.DataBindingTriggerClass
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
