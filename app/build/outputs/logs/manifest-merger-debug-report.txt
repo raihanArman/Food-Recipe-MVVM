@@ -1,11 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:2:1-28:12
 MERGED from [androidx.databinding:databinding-adapters:4.1.1] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\9405ba0fde64021bec25c187f29fd847\databinding-adapters-4.1.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:4.1.1] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\b94dab1192d9e4086682581fffbbfaaa\databinding-runtime-4.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\6f2a95a9d21d21245af7cf23db2111e8\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [io.coil-kt:coil:0.13.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\8f0ad6fdb3d8048eea1283a6df052e33\jetified-coil-0.13.0\AndroidManifest.xml:2:1-9:12
 MERGED from [io.coil-kt:coil-base:0.13.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\0d1792acf92cc54716c01bbba0b15324\jetified-coil-base-0.13.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\769c18738b8a49020f1af178ae786d63\navigation-fragment-ktx-2.3.0\AndroidManifest.xml:17:1-24:12
@@ -80,20 +81,20 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Raihan\.gradle\c
 MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\05f1d8a6c0e12e6ab6c4a508cf5f4934\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\2729388feb774eac25b7ee12aafb5e5b\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.dagger:dagger-lint-aar:2.28] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\a8c907cbb594415df40852608acbbcc4\jetified-dagger-lint-aar-2.28\AndroidManifest.xml:16:1-18:12
-INJECTED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:3:5-31
 		INJECTED from F:\FoodRecipe\app\src\main\AndroidManifest.xml
 		INJECTED from F:\FoodRecipe\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from F:\FoodRecipe\app\src\main\AndroidManifest.xml
-		ADDED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from F:\FoodRecipe\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from F:\FoodRecipe\app\src\main\AndroidManifest.xml
-		ADDED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from F:\FoodRecipe\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:2:11-69
@@ -106,7 +107,7 @@ ADDED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:6:5-78
 	android:name
 		ADDED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:8:5-23:19
+ADDED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:8:5-26:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\688f63ddff74fef2182556593ace8a03\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\688f63ddff74fef2182556593ace8a03\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\5e1c5ae632c4849fc12659c0c1aa43ef\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -151,6 +152,12 @@ category#android.intent.category.LAUNCHER
 ADDED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
 		ADDED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:20:27-74
+meta-data#preloaded_fonts
+ADDED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:23:9-25:57
+	android:resource
+		ADDED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:25:13-54
+	android:name
+		ADDED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:24:13-43
 uses-sdk
 INJECTED from F:\FoodRecipe\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from F:\FoodRecipe\app\src\main\AndroidManifest.xml
@@ -159,6 +166,8 @@ MERGED from [androidx.databinding:databinding-adapters:4.1.1] C:\Users\Raihan\.g
 MERGED from [androidx.databinding:databinding-adapters:4.1.1] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\9405ba0fde64021bec25c187f29fd847\databinding-adapters-4.1.1\AndroidManifest.xml:22:5-44
 MERGED from [androidx.databinding:databinding-runtime:4.1.1] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\b94dab1192d9e4086682581fffbbfaaa\databinding-runtime-4.1.1\AndroidManifest.xml:22:5-44
 MERGED from [androidx.databinding:databinding-runtime:4.1.1] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\b94dab1192d9e4086682581fffbbfaaa\databinding-runtime-4.1.1\AndroidManifest.xml:22:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\6f2a95a9d21d21245af7cf23db2111e8\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\6f2a95a9d21d21245af7cf23db2111e8\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [io.coil-kt:coil:0.13.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\8f0ad6fdb3d8048eea1283a6df052e33\jetified-coil-0.13.0\AndroidManifest.xml:5:5-7:41
 MERGED from [io.coil-kt:coil:0.13.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\8f0ad6fdb3d8048eea1283a6df052e33\jetified-coil-0.13.0\AndroidManifest.xml:5:5-7:41
 MERGED from [io.coil-kt:coil-base:0.13.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\0d1792acf92cc54716c01bbba0b15324\jetified-coil-base-0.13.0\AndroidManifest.xml:5:5-7:41
@@ -334,8 +343,8 @@ ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Raihan\.gradle\
 	android:name
 		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\98d0bc0de79a57d285d2f4cbf1680ba9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:2:1-25:12 reason: dagger.lint has a targetSdkVersion < 4
+IMPLIED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:2:1-28:12 reason: dagger.lint has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:2:1-25:12 reason: dagger.lint has a targetSdkVersion < 4
+IMPLIED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:2:1-28:12 reason: dagger.lint has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:2:1-25:12 reason: dagger.lint requested WRITE_EXTERNAL_STORAGE
+IMPLIED from F:\FoodRecipe\app\src\main\AndroidManifest.xml:2:1-28:12 reason: dagger.lint requested WRITE_EXTERNAL_STORAGE
