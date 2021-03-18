@@ -1,4 +1,4 @@
-package id.co.foodrecipe
+package id.co.foodrecipe.util
 
 class Constans {
     companion object{

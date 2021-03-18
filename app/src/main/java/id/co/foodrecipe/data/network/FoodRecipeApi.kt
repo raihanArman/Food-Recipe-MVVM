@@ -1,4 +1,4 @@
-package id.co.foodrecipe
+package id.co.foodrecipe.data.network
 
 import id.co.foodrecipe.models.FoodRecipe
 import retrofit2.Response
