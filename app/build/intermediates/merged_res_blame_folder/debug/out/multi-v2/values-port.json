@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\FoodRecipe\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "outputFile": "G:\\Kotlin\\Food-Recipe-MVVM\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Raihan\\.gradle\\caches\\transforms-2\\files-2.1\\8d0744eeacf1c22b9e796b375c64975f\\appcompat-1.2.0\\res\\values-port\\values-port.xml",

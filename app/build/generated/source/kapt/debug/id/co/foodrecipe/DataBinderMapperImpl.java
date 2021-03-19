@@ -6,6 +6,8 @@ import android.view.View;
 import androidx.databinding.DataBinderMapper;
 import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
+import id.co.foodrecipe.databinding.RecipesRowLayoutBindingImpl;
+import java.lang.IllegalArgumentException;
 import java.lang.Integer;
 import java.lang.Object;
 import java.lang.Override;
@@ -18,7 +20,13 @@ import javax.annotation.Generated;
 
 @Generated("Android Data Binding")
 public class DataBinderMapperImpl extends DataBinderMapper {
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(0);
+  private static final int LAYOUT_RECIPESROWLAYOUT = 1;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(1);
+
+  static {
+    INTERNAL_LAYOUT_ID_LOOKUP.put(id.co.foodrecipe.R.layout.recipes_row_layout, LAYOUT_RECIPESROWLAYOUT);
+  }
 
   @Override
   public ViewDataBinding getDataBinder(DataBindingComponent component, View view, int layoutId) {
@@ -27,6 +35,14 @@ public class DataBinderMapperImpl extends DataBinderMapper {
       final Object tag = view.getTag();
       if(tag == null) {
         throw new RuntimeException("view must have a tag");
+      }
+      switch(localizedLayoutId) {
+        case  LAYOUT_RECIPESROWLAYOUT: {
+          if ("layout/recipes_row_layout_0".equals(tag)) {
+            return new RecipesRowLayoutBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for recipes_row_layout is invalid. Received: " + tag);
+        }
       }
     }
     return null;
@@ -72,14 +88,19 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerBrLookup {
-    static final SparseArray<String> sKeys = new SparseArray<String>(1);
+    static final SparseArray<String> sKeys = new SparseArray<String>(2);
 
     static {
       sKeys.put(0, "_all");
+      sKeys.put(1, "result");
     }
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(0);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(1);
+
+    static {
+      sKeys.put("layout/recipes_row_layout_0", id.co.foodrecipe.R.layout.recipes_row_layout);
+    }
   }
 }

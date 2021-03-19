@@ -5,83 +5,85 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="16"
-8-->F:\FoodRecipe\app\src\main\AndroidManifest.xml
+8        android:minSdkVersion="23"
+8-->G:\Kotlin\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->F:\FoodRecipe\app\src\main\AndroidManifest.xml
+9-->G:\Kotlin\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->F:\FoodRecipe\app\src\main\AndroidManifest.xml:5:5-66
-11-->F:\FoodRecipe\app\src\main\AndroidManifest.xml:5:22-64
+11-->G:\Kotlin\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:5:5-66
+11-->G:\Kotlin\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->F:\FoodRecipe\app\src\main\AndroidManifest.xml:6:5-78
-12-->F:\FoodRecipe\app\src\main\AndroidManifest.xml:6:22-76
+12-->G:\Kotlin\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:6:5-78
+12-->G:\Kotlin\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:6:22-76
 13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 14    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 16
 17    <application
-17-->F:\FoodRecipe\app\src\main\AndroidManifest.xml:8:5-26:19
-18        android:name="androidx.multidex.MultiDexApplication"
+17-->G:\Kotlin\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:8:5-27:19
+18        android:name="id.co.foodrecipe.MyApplication"
+18-->G:\Kotlin\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:10:9-38
 19        android:allowBackup="true"
-19-->F:\FoodRecipe\app\src\main\AndroidManifest.xml:9:9-35
+19-->G:\Kotlin\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:9:9-35
 20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 20-->[androidx.core:core:1.3.2] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\bbca94d9ae6451e3732f247e9137a8fe\core-1.3.2\AndroidManifest.xml:24:18-86
 21        android:debuggable="true"
-22        android:fullBackupContent="true"
-22-->F:\FoodRecipe\app\src\main\AndroidManifest.xml:14:9-41
-23        android:icon="@mipmap/ic_launcher"
-23-->F:\FoodRecipe\app\src\main\AndroidManifest.xml:10:9-43
-24        android:label="@string/app_name"
-24-->F:\FoodRecipe\app\src\main\AndroidManifest.xml:11:9-41
-25        android:roundIcon="@mipmap/ic_launcher_round"
-25-->F:\FoodRecipe\app\src\main\AndroidManifest.xml:12:9-54
-26        android:supportsRtl="true"
-26-->F:\FoodRecipe\app\src\main\AndroidManifest.xml:13:9-35
-27        android:testOnly="true"
-28        android:theme="@style/Theme.FoodRecipe" >
-28-->F:\FoodRecipe\app\src\main\AndroidManifest.xml:15:9-48
-29        <activity android:name="id.co.foodrecipe.MainActivity" >
-29-->F:\FoodRecipe\app\src\main\AndroidManifest.xml:16:9-22:20
-29-->F:\FoodRecipe\app\src\main\AndroidManifest.xml:16:19-47
-30            <intent-filter>
-30-->F:\FoodRecipe\app\src\main\AndroidManifest.xml:17:13-21:29
-31                <action android:name="android.intent.action.MAIN" />
-31-->F:\FoodRecipe\app\src\main\AndroidManifest.xml:18:17-69
-31-->F:\FoodRecipe\app\src\main\AndroidManifest.xml:18:25-66
-32
-33                <category android:name="android.intent.category.LAUNCHER" />
-33-->F:\FoodRecipe\app\src\main\AndroidManifest.xml:20:17-77
-33-->F:\FoodRecipe\app\src\main\AndroidManifest.xml:20:27-74
-34            </intent-filter>
-35        </activity>
-36
-37        <meta-data
-37-->F:\FoodRecipe\app\src\main\AndroidManifest.xml:23:9-25:57
-38            android:name="preloaded_fonts"
-38-->F:\FoodRecipe\app\src\main\AndroidManifest.xml:24:13-43
-39            android:resource="@array/preloaded_fonts" />
-39-->F:\FoodRecipe\app\src\main\AndroidManifest.xml:25:13-54
-40
-41        <service
-41-->[androidx.room:room-runtime:2.2.5] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\31a054f2b7516f3082406e681009f7ee\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
-42            android:name="androidx.room.MultiInstanceInvalidationService"
-42-->[androidx.room:room-runtime:2.2.5] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\31a054f2b7516f3082406e681009f7ee\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
-43            android:directBootAware="true"
-43-->[androidx.room:room-runtime:2.2.5] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\31a054f2b7516f3082406e681009f7ee\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
-44            android:exported="false" />
-44-->[androidx.room:room-runtime:2.2.5] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\31a054f2b7516f3082406e681009f7ee\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
-45
-46        <provider
-46-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\98d0bc0de79a57d285d2f4cbf1680ba9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-47            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-47-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\98d0bc0de79a57d285d2f4cbf1680ba9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-48            android:authorities="id.co.foodrecipe.lifecycle-process"
-48-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\98d0bc0de79a57d285d2f4cbf1680ba9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-49            android:exported="false"
-49-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\98d0bc0de79a57d285d2f4cbf1680ba9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-50            android:multiprocess="true" />
-50-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\98d0bc0de79a57d285d2f4cbf1680ba9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-51    </application>
-52
-53</manifest>
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="true"
+23-->G:\Kotlin\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:15:9-41
+24        android:icon="@mipmap/ic_launcher"
+24-->G:\Kotlin\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:11:9-43
+25        android:label="@string/app_name"
+25-->G:\Kotlin\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:12:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->G:\Kotlin\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:13:9-54
+27        android:supportsRtl="true"
+27-->G:\Kotlin\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:14:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.FoodRecipe" >
+29-->G:\Kotlin\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:16:9-48
+30        <activity android:name="id.co.foodrecipe.ui.MainActivity" >
+30-->G:\Kotlin\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:17:9-23:20
+30-->G:\Kotlin\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:17:19-50
+31            <intent-filter>
+31-->G:\Kotlin\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:18:13-22:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->G:\Kotlin\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:19:17-69
+32-->G:\Kotlin\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:19:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->G:\Kotlin\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:21:17-77
+34-->G:\Kotlin\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:21:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <meta-data
+38-->G:\Kotlin\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:24:9-26:57
+39            android:name="preloaded_fonts"
+39-->G:\Kotlin\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:25:13-43
+40            android:resource="@array/preloaded_fonts" />
+40-->G:\Kotlin\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:26:13-54
+41
+42        <service
+42-->[androidx.room:room-runtime:2.2.5] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\31a054f2b7516f3082406e681009f7ee\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+43            android:name="androidx.room.MultiInstanceInvalidationService"
+43-->[androidx.room:room-runtime:2.2.5] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\31a054f2b7516f3082406e681009f7ee\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+44            android:directBootAware="true"
+44-->[androidx.room:room-runtime:2.2.5] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\31a054f2b7516f3082406e681009f7ee\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+45            android:exported="false" />
+45-->[androidx.room:room-runtime:2.2.5] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\31a054f2b7516f3082406e681009f7ee\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+46
+47        <provider
+47-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\98d0bc0de79a57d285d2f4cbf1680ba9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+48            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+48-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\98d0bc0de79a57d285d2f4cbf1680ba9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+49            android:authorities="id.co.foodrecipe.lifecycle-process"
+49-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\98d0bc0de79a57d285d2f4cbf1680ba9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+50            android:exported="false"
+50-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\98d0bc0de79a57d285d2f4cbf1680ba9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+51            android:multiprocess="true" />
+51-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\98d0bc0de79a57d285d2f4cbf1680ba9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+52    </application>
+53
+54</manifest>
