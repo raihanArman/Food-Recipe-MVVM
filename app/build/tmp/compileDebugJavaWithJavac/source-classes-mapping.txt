@@ -1,64 +1,5 @@
-hilt_aggregated_deps/id_co_foodrecipe_MainViewModel_HiltModuleModuleDeps.java
- hilt_aggregated_deps.id_co_foodrecipe_MainViewModel_HiltModuleModuleDeps
-androidx/databinding/DataBindingComponent.java
- androidx.databinding.DataBindingComponent
-androidx/databinding/DataBinderMapperImpl.java
- androidx.databinding.DataBinderMapperImpl
-id/co/foodrecipe/di/NetworkModule_ProvideConverterFactoryFactory.java
- id.co.foodrecipe.di.NetworkModule_ProvideConverterFactoryFactory
- id.co.foodrecipe.di.NetworkModule_ProvideConverterFactoryFactory$InstanceHolder
-androidx/databinding/library/baseAdapters/BR.java
- androidx.databinding.library.baseAdapters.BR
-hilt_aggregated_deps/id_co_foodrecipe_MyApplication_GeneratedInjectorModuleDeps.java
- hilt_aggregated_deps.id_co_foodrecipe_MyApplication_GeneratedInjectorModuleDeps
-id/co/foodrecipe/data/RemoteDataSource_Factory.java
- id.co.foodrecipe.data.RemoteDataSource_Factory
-id/co/foodrecipe/MainViewModel_HiltModule.java
- id.co.foodrecipe.MainViewModel_HiltModule
-id/co/foodrecipe/MyApplication_GeneratedInjector.java
- id.co.foodrecipe.MyApplication_GeneratedInjector
-id/co/foodrecipe/DataBinderMapperImpl.java
- id.co.foodrecipe.DataBinderMapperImpl
- id.co.foodrecipe.DataBinderMapperImpl$InnerBrLookup
- id.co.foodrecipe.DataBinderMapperImpl$InnerLayoutIdLookup
-id/co/foodrecipe/databinding/RecipesRowLayoutBinding.java
- id.co.foodrecipe.databinding.RecipesRowLayoutBinding
-id/co/foodrecipe/MainViewModel_AssistedFactory_Factory.java
- id.co.foodrecipe.MainViewModel_AssistedFactory_Factory
-id/co/foodrecipe/databinding/RecipesRowLayoutBindingImpl.java
- id.co.foodrecipe.databinding.RecipesRowLayoutBindingImpl
-id/co/foodrecipe/ui/fragments/recipes/Hilt_RecipesFragment.java
- id.co.foodrecipe.ui.fragments.recipes.Hilt_RecipesFragment
-id/co/foodrecipe/DataBindingTriggerClass.java
- id.co.foodrecipe.DataBindingTriggerClass
-id/co/foodrecipe/BuildConfig.java
- id.co.foodrecipe.BuildConfig
-id/co/foodrecipe/data/Repository_Factory.java
- id.co.foodrecipe.data.Repository_Factory
-id/co/foodrecipe/di/NetworkModule_ProvideApiServiceFactory.java
- id.co.foodrecipe.di.NetworkModule_ProvideApiServiceFactory
-hilt_aggregated_deps/id_co_foodrecipe_di_NetworkModuleModuleDeps.java
- hilt_aggregated_deps.id_co_foodrecipe_di_NetworkModuleModuleDeps
-id/co/foodrecipe/BR.java
- id.co.foodrecipe.BR
-id/co/foodrecipe/di/NetworkModule_ProvideHttpClientFactory.java
- id.co.foodrecipe.di.NetworkModule_ProvideHttpClientFactory
- id.co.foodrecipe.di.NetworkModule_ProvideHttpClientFactory$InstanceHolder
-id/co/foodrecipe/MainViewModel_AssistedFactory.java
- id.co.foodrecipe.MainViewModel_AssistedFactory
-id/co/foodrecipe/di/NetworkModule_ProvideRetrofitInstanceFactory.java
- id.co.foodrecipe.di.NetworkModule_ProvideRetrofitInstanceFactory
-hilt_aggregated_deps/id_co_foodrecipe_ui_fragments_recipes_RecipesFragment_GeneratedInjectorModuleDeps.java
- hilt_aggregated_deps.id_co_foodrecipe_ui_fragments_recipes_RecipesFragment_GeneratedInjectorModuleDeps
-id/co/foodrecipe/ui/fragments/recipes/RecipesFragment_GeneratedInjector.java
- id.co.foodrecipe.ui.fragments.recipes.RecipesFragment_GeneratedInjector
 hilt_aggregated_deps/id_co_foodrecipe_ui_MainActivity_GeneratedInjectorModuleDeps.java
  hilt_aggregated_deps.id_co_foodrecipe_ui_MainActivity_GeneratedInjectorModuleDeps
-id/co/foodrecipe/ui/MainActivity_GeneratedInjector.java
- id.co.foodrecipe.ui.MainActivity_GeneratedInjector
-id/co/foodrecipe/Hilt_MyApplication.java
- id.co.foodrecipe.Hilt_MyApplication
- id.co.foodrecipe.Hilt_MyApplication$1
 id/co/foodrecipe/MyApplication_HiltComponents.java
  id.co.foodrecipe.MyApplication_HiltComponents
  id.co.foodrecipe.MyApplication_HiltComponents$ActivityC
@@ -80,6 +21,46 @@ id/co/foodrecipe/MyApplication_HiltComponents.java
  id.co.foodrecipe.MyApplication_HiltComponents$ViewWithFragmentC
  id.co.foodrecipe.MyApplication_HiltComponents$ViewWithFragmentC$Builder
  id.co.foodrecipe.MyApplication_HiltComponents$ViewWithFragmentCBuilderModule
+id/co/foodrecipe/di/DatabaseModule_ProvideDaoFactory.java
+ id.co.foodrecipe.di.DatabaseModule_ProvideDaoFactory
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+id/co/foodrecipe/di/NetworkModule_ProvideConverterFactoryFactory.java
+ id.co.foodrecipe.di.NetworkModule_ProvideConverterFactoryFactory
+ id.co.foodrecipe.di.NetworkModule_ProvideConverterFactoryFactory$InstanceHolder
+id/co/foodrecipe/viewmodels/MainViewModel_AssistedFactory.java
+ id.co.foodrecipe.viewmodels.MainViewModel_AssistedFactory
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+hilt_aggregated_deps/id_co_foodrecipe_MyApplication_GeneratedInjectorModuleDeps.java
+ hilt_aggregated_deps.id_co_foodrecipe_MyApplication_GeneratedInjectorModuleDeps
+id/co/foodrecipe/data/RemoteDataSource_Factory.java
+ id.co.foodrecipe.data.RemoteDataSource_Factory
+id/co/foodrecipe/MyApplication_GeneratedInjector.java
+ id.co.foodrecipe.MyApplication_GeneratedInjector
+id/co/foodrecipe/viewmodels/MainViewModel_AssistedFactory_Factory.java
+ id.co.foodrecipe.viewmodels.MainViewModel_AssistedFactory_Factory
+id/co/foodrecipe/DataBinderMapperImpl.java
+ id.co.foodrecipe.DataBinderMapperImpl
+ id.co.foodrecipe.DataBinderMapperImpl$InnerBrLookup
+ id.co.foodrecipe.DataBinderMapperImpl$InnerLayoutIdLookup
+id/co/foodrecipe/di/DatabaseModule_ProvideDatabaseFactory.java
+ id.co.foodrecipe.di.DatabaseModule_ProvideDatabaseFactory
+id/co/foodrecipe/databinding/RecipesRowLayoutBinding.java
+ id.co.foodrecipe.databinding.RecipesRowLayoutBinding
+id/co/foodrecipe/data/LocalDataSource_Factory.java
+ id.co.foodrecipe.data.LocalDataSource_Factory
+id/co/foodrecipe/Hilt_MyApplication.java
+ id.co.foodrecipe.Hilt_MyApplication
+ id.co.foodrecipe.Hilt_MyApplication$1
+hilt_aggregated_deps/id_co_foodrecipe_di_DatabaseModuleModuleDeps.java
+ hilt_aggregated_deps.id_co_foodrecipe_di_DatabaseModuleModuleDeps
+hilt_aggregated_deps/id_co_foodrecipe_viewmodels_MainViewModel_HiltModuleModuleDeps.java
+ hilt_aggregated_deps.id_co_foodrecipe_viewmodels_MainViewModel_HiltModuleModuleDeps
+id/co/foodrecipe/databinding/RecipesRowLayoutBindingImpl.java
+ id.co.foodrecipe.databinding.RecipesRowLayoutBindingImpl
+id/co/foodrecipe/ui/fragments/recipes/Hilt_RecipesFragment.java
+ id.co.foodrecipe.ui.fragments.recipes.Hilt_RecipesFragment
 id/co/foodrecipe/DaggerMyApplication_HiltComponents_ApplicationC.java
  id.co.foodrecipe.DaggerMyApplication_HiltComponents_ApplicationC
  id.co.foodrecipe.DaggerMyApplication_HiltComponents_ApplicationC$1
@@ -99,5 +80,40 @@ id/co/foodrecipe/DaggerMyApplication_HiltComponents_ApplicationC.java
  id.co.foodrecipe.DaggerMyApplication_HiltComponents_ApplicationC$ServiceCBuilder
  id.co.foodrecipe.DaggerMyApplication_HiltComponents_ApplicationC$ServiceCImpl
  id.co.foodrecipe.DaggerMyApplication_HiltComponents_ApplicationC$SwitchingProvider
+id/co/foodrecipe/BuildConfig.java
+ id.co.foodrecipe.BuildConfig
+id/co/foodrecipe/data/Repository_Factory.java
+ id.co.foodrecipe.data.Repository_Factory
 id/co/foodrecipe/ui/Hilt_MainActivity.java
  id.co.foodrecipe.ui.Hilt_MainActivity
+id/co/foodrecipe/di/NetworkModule_ProvideApiServiceFactory.java
+ id.co.foodrecipe.di.NetworkModule_ProvideApiServiceFactory
+id/co/foodrecipe/ui/MainActivity_GeneratedInjector.java
+ id.co.foodrecipe.ui.MainActivity_GeneratedInjector
+id/co/foodrecipe/data/database/RecipesDao_Impl.java
+ id.co.foodrecipe.data.database.RecipesDao_Impl
+ id.co.foodrecipe.data.database.RecipesDao_Impl$1
+ id.co.foodrecipe.data.database.RecipesDao_Impl$2
+ id.co.foodrecipe.data.database.RecipesDao_Impl$3
+id/co/foodrecipe/data/database/RecipesDatabase_Impl.java
+ id.co.foodrecipe.data.database.RecipesDatabase_Impl
+ id.co.foodrecipe.data.database.RecipesDatabase_Impl$1
+hilt_aggregated_deps/id_co_foodrecipe_di_NetworkModuleModuleDeps.java
+ hilt_aggregated_deps.id_co_foodrecipe_di_NetworkModuleModuleDeps
+id/co/foodrecipe/BR.java
+ id.co.foodrecipe.BR
+id/co/foodrecipe/viewmodels/MainViewModel_HiltModule.java
+ id.co.foodrecipe.viewmodels.MainViewModel_HiltModule
+id/co/foodrecipe/di/NetworkModule_ProvideHttpClientFactory.java
+ id.co.foodrecipe.di.NetworkModule_ProvideHttpClientFactory
+ id.co.foodrecipe.di.NetworkModule_ProvideHttpClientFactory$InstanceHolder
+id/co/foodrecipe/di/NetworkModule_ProvideRetrofitInstanceFactory.java
+ id.co.foodrecipe.di.NetworkModule_ProvideRetrofitInstanceFactory
+hilt_aggregated_deps/id_co_foodrecipe_ui_fragments_recipes_RecipesFragment_GeneratedInjectorModuleDeps.java
+ hilt_aggregated_deps.id_co_foodrecipe_ui_fragments_recipes_RecipesFragment_GeneratedInjectorModuleDeps
+id/co/foodrecipe/ui/fragments/recipes/RecipesFragment_GeneratedInjector.java
+ id.co.foodrecipe.ui.fragments.recipes.RecipesFragment_GeneratedInjector
+id/co/foodrecipe/DataBindingTriggerClass.java
+ id.co.foodrecipe.DataBindingTriggerClass
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
