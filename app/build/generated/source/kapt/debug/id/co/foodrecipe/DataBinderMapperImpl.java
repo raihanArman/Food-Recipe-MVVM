@@ -6,6 +6,7 @@ import android.view.View;
 import androidx.databinding.DataBinderMapper;
 import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
+import id.co.foodrecipe.databinding.FragmentRecipesBindingImpl;
 import id.co.foodrecipe.databinding.RecipesRowLayoutBindingImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
@@ -20,11 +21,14 @@ import javax.annotation.Generated;
 
 @Generated("Android Data Binding")
 public class DataBinderMapperImpl extends DataBinderMapper {
-  private static final int LAYOUT_RECIPESROWLAYOUT = 1;
+  private static final int LAYOUT_FRAGMENTRECIPES = 1;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(1);
+  private static final int LAYOUT_RECIPESROWLAYOUT = 2;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(2);
 
   static {
+    INTERNAL_LAYOUT_ID_LOOKUP.put(id.co.foodrecipe.R.layout.fragment_recipes, LAYOUT_FRAGMENTRECIPES);
     INTERNAL_LAYOUT_ID_LOOKUP.put(id.co.foodrecipe.R.layout.recipes_row_layout, LAYOUT_RECIPESROWLAYOUT);
   }
 
@@ -37,6 +41,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
         throw new RuntimeException("view must have a tag");
       }
       switch(localizedLayoutId) {
+        case  LAYOUT_FRAGMENTRECIPES: {
+          if ("layout/fragment_recipes_0".equals(tag)) {
+            return new FragmentRecipesBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_recipes is invalid. Received: " + tag);
+        }
         case  LAYOUT_RECIPESROWLAYOUT: {
           if ("layout/recipes_row_layout_0".equals(tag)) {
             return new RecipesRowLayoutBindingImpl(component, view);
@@ -88,18 +98,20 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerBrLookup {
-    static final SparseArray<String> sKeys = new SparseArray<String>(2);
+    static final SparseArray<String> sKeys = new SparseArray<String>(3);
 
     static {
       sKeys.put(0, "_all");
-      sKeys.put(1, "result");
+      sKeys.put(1, "mainViewModel");
+      sKeys.put(2, "result");
     }
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(1);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(2);
 
     static {
+      sKeys.put("layout/fragment_recipes_0", id.co.foodrecipe.R.layout.fragment_recipes);
       sKeys.put("layout/recipes_row_layout_0", id.co.foodrecipe.R.layout.recipes_row_layout);
     }
   }

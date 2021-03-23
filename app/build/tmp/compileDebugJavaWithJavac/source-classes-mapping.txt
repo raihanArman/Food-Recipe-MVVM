@@ -38,6 +38,8 @@ id/co/foodrecipe/data/RemoteDataSource_Factory.java
  id.co.foodrecipe.data.RemoteDataSource_Factory
 id/co/foodrecipe/MyApplication_GeneratedInjector.java
  id.co.foodrecipe.MyApplication_GeneratedInjector
+id/co/foodrecipe/databinding/FragmentRecipesBinding.java
+ id.co.foodrecipe.databinding.FragmentRecipesBinding
 id/co/foodrecipe/viewmodels/MainViewModel_AssistedFactory_Factory.java
  id.co.foodrecipe.viewmodels.MainViewModel_AssistedFactory_Factory
 id/co/foodrecipe/DataBinderMapperImpl.java
@@ -48,6 +50,10 @@ id/co/foodrecipe/di/DatabaseModule_ProvideDatabaseFactory.java
  id.co.foodrecipe.di.DatabaseModule_ProvideDatabaseFactory
 id/co/foodrecipe/databinding/RecipesRowLayoutBinding.java
  id.co.foodrecipe.databinding.RecipesRowLayoutBinding
+hilt_aggregated_deps/id_co_foodrecipe_viewmodels_RecipesViewModel_HiltModuleModuleDeps.java
+ hilt_aggregated_deps.id_co_foodrecipe_viewmodels_RecipesViewModel_HiltModuleModuleDeps
+id/co/foodrecipe/viewmodels/RecipesViewModel_AssistedFactory.java
+ id.co.foodrecipe.viewmodels.RecipesViewModel_AssistedFactory
 id/co/foodrecipe/data/LocalDataSource_Factory.java
  id.co.foodrecipe.data.LocalDataSource_Factory
 id/co/foodrecipe/Hilt_MyApplication.java
@@ -80,12 +86,16 @@ id/co/foodrecipe/DaggerMyApplication_HiltComponents_ApplicationC.java
  id.co.foodrecipe.DaggerMyApplication_HiltComponents_ApplicationC$ServiceCBuilder
  id.co.foodrecipe.DaggerMyApplication_HiltComponents_ApplicationC$ServiceCImpl
  id.co.foodrecipe.DaggerMyApplication_HiltComponents_ApplicationC$SwitchingProvider
+id/co/foodrecipe/databinding/FragmentRecipesBindingImpl.java
+ id.co.foodrecipe.databinding.FragmentRecipesBindingImpl
 id/co/foodrecipe/BuildConfig.java
  id.co.foodrecipe.BuildConfig
 id/co/foodrecipe/data/Repository_Factory.java
  id.co.foodrecipe.data.Repository_Factory
 id/co/foodrecipe/ui/Hilt_MainActivity.java
  id.co.foodrecipe.ui.Hilt_MainActivity
+id/co/foodrecipe/viewmodels/RecipesViewModel_AssistedFactory_Factory.java
+ id.co.foodrecipe.viewmodels.RecipesViewModel_AssistedFactory_Factory
 id/co/foodrecipe/di/NetworkModule_ProvideApiServiceFactory.java
  id.co.foodrecipe.di.NetworkModule_ProvideApiServiceFactory
 id/co/foodrecipe/ui/MainActivity_GeneratedInjector.java
@@ -102,11 +112,15 @@ hilt_aggregated_deps/id_co_foodrecipe_di_NetworkModuleModuleDeps.java
  hilt_aggregated_deps.id_co_foodrecipe_di_NetworkModuleModuleDeps
 id/co/foodrecipe/BR.java
  id.co.foodrecipe.BR
+id/co/foodrecipe/data/DataStoreRepository_Factory.java
+ id.co.foodrecipe.data.DataStoreRepository_Factory
 id/co/foodrecipe/viewmodels/MainViewModel_HiltModule.java
  id.co.foodrecipe.viewmodels.MainViewModel_HiltModule
 id/co/foodrecipe/di/NetworkModule_ProvideHttpClientFactory.java
  id.co.foodrecipe.di.NetworkModule_ProvideHttpClientFactory
  id.co.foodrecipe.di.NetworkModule_ProvideHttpClientFactory$InstanceHolder
+id/co/foodrecipe/viewmodels/RecipesViewModel_HiltModule.java
+ id.co.foodrecipe.viewmodels.RecipesViewModel_HiltModule
 id/co/foodrecipe/di/NetworkModule_ProvideRetrofitInstanceFactory.java
  id.co.foodrecipe.di.NetworkModule_ProvideRetrofitInstanceFactory
 hilt_aggregated_deps/id_co_foodrecipe_ui_fragments_recipes_RecipesFragment_GeneratedInjectorModuleDeps.java
