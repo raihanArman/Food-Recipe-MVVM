@@ -32,12 +32,12 @@
         "source": "F:\\Food-Recipe-MVVM\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "F:\\Food-Recipe-MVVM\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "F:\\Food-Recipe-MVVM\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "F:\\Food-Recipe-MVVM\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_recipes_bottom_sheet.xml.flat",
         "source": "F:\\Food-Recipe-MVVM\\app\\src\\main\\res\\layout\\fragment_recipes_bottom_sheet.xml"
+    },
+    {
+        "merged": "F:\\Food-Recipe-MVVM\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "F:\\Food-Recipe-MVVM\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "F:\\Food-Recipe-MVVM\\app\\build\\intermediates\\res\\merged\\debug\\layout_placeholder_row_layout.xml.flat",

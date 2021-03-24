@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.asLiveData
+import androidx.navigation.fragment.findNavController
 import com.google.android.material.chip.Chip
 import com.google.android.material.chip.ChipGroup
 import id.co.foodrecipe.R
@@ -64,6 +65,11 @@ class RecipesBottomSheetFragment : Fragment() {
                     dietTypeChip,
                     dietTypeChipId
             )
+
+            val action =
+                    RecipesBottomSheetFragmentDirections.actionRecipesBottomSheetFragmentToRecipesFragment(true)
+            findNavController().navigate(action)
+
         }
 
         return mView
