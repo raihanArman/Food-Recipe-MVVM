@@ -15,7 +15,7 @@ class RecipesBinding {
         @JvmStatic
         fun errorImageViewVisibility(
             imageView: ImageView,
-            apiResponse: NetworkResult<FoodRecipe?>,
+            apiResponse: NetworkResult<FoodRecipe>?,
             database: List<RecipesEntity>?
         ){
             if (apiResponse is NetworkResult.Error && database.isNullOrEmpty()){
@@ -32,7 +32,7 @@ class RecipesBinding {
         @JvmStatic
         fun errorTextViewVisibility(
             textView: TextView,
-            apiResponse: NetworkResult<FoodRecipe?>,
+            apiResponse: NetworkResult<FoodRecipe>?,
             database: List<RecipesEntity>?
         ){
             if (apiResponse is NetworkResult.Error && database.isNullOrEmpty()){

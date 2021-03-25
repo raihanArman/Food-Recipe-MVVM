@@ -10,6 +10,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.asLiveData
 import androidx.navigation.fragment.findNavController
+import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.google.android.material.chip.Chip
 import com.google.android.material.chip.ChipGroup
 import id.co.foodrecipe.R
@@ -19,7 +20,7 @@ import kotlinx.android.synthetic.main.fragment_recipes_bottom_sheet.view.*
 import java.lang.Exception
 import java.util.*
 
-class RecipesBottomSheetFragment : Fragment() {
+class RecipesBottomSheetFragment : BottomSheetDialogFragment() {
 
     private lateinit var recipesViewModel: RecipesViewModel
     private var mealTypeChip = Constans.DEFAULT_MEAL_TYPE

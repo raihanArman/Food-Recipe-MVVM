@@ -40,49 +40,50 @@
 26-->F:\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:13:9-54
 27        android:supportsRtl="true"
 27-->F:\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:14:9-35
-28        android:theme="@style/Theme.FoodRecipe" >
-28-->F:\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:16:9-48
-29        <activity android:name="id.co.foodrecipe.ui.MainActivity" >
-29-->F:\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:17:9-23:20
-29-->F:\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:17:19-50
-30            <intent-filter>
-30-->F:\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:18:13-22:29
-31                <action android:name="android.intent.action.MAIN" />
-31-->F:\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:19:17-69
-31-->F:\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:19:25-66
-32
-33                <category android:name="android.intent.category.LAUNCHER" />
-33-->F:\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:21:17-77
-33-->F:\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:21:27-74
-34            </intent-filter>
-35        </activity>
-36
-37        <meta-data
-37-->F:\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:24:9-26:57
-38            android:name="preloaded_fonts"
-38-->F:\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:25:13-43
-39            android:resource="@array/preloaded_fonts" />
-39-->F:\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:26:13-54
-40
-41        <service
-41-->[androidx.room:room-runtime:2.2.5] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\31a054f2b7516f3082406e681009f7ee\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
-42            android:name="androidx.room.MultiInstanceInvalidationService"
-42-->[androidx.room:room-runtime:2.2.5] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\31a054f2b7516f3082406e681009f7ee\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
-43            android:directBootAware="true"
-43-->[androidx.room:room-runtime:2.2.5] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\31a054f2b7516f3082406e681009f7ee\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
-44            android:exported="false" />
-44-->[androidx.room:room-runtime:2.2.5] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\31a054f2b7516f3082406e681009f7ee\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
-45
-46        <provider
-46-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\98d0bc0de79a57d285d2f4cbf1680ba9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-47            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-47-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\98d0bc0de79a57d285d2f4cbf1680ba9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-48            android:authorities="id.co.foodrecipe.lifecycle-process"
-48-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\98d0bc0de79a57d285d2f4cbf1680ba9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-49            android:exported="false"
-49-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\98d0bc0de79a57d285d2f4cbf1680ba9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-50            android:multiprocess="true" />
-50-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\98d0bc0de79a57d285d2f4cbf1680ba9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-51    </application>
-52
-53</manifest>
+28        android:testOnly="true"
+29        android:theme="@style/Theme.FoodRecipe" >
+29-->F:\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:16:9-48
+30        <activity android:name="id.co.foodrecipe.ui.MainActivity" >
+30-->F:\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:17:9-23:20
+30-->F:\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:17:19-50
+31            <intent-filter>
+31-->F:\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:18:13-22:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->F:\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:19:17-69
+32-->F:\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:19:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->F:\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:21:17-77
+34-->F:\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:21:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <meta-data
+38-->F:\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:24:9-26:57
+39            android:name="preloaded_fonts"
+39-->F:\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:25:13-43
+40            android:resource="@array/preloaded_fonts" />
+40-->F:\Food-Recipe-MVVM\app\src\main\AndroidManifest.xml:26:13-54
+41
+42        <service
+42-->[androidx.room:room-runtime:2.2.5] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\31a054f2b7516f3082406e681009f7ee\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+43            android:name="androidx.room.MultiInstanceInvalidationService"
+43-->[androidx.room:room-runtime:2.2.5] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\31a054f2b7516f3082406e681009f7ee\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+44            android:directBootAware="true"
+44-->[androidx.room:room-runtime:2.2.5] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\31a054f2b7516f3082406e681009f7ee\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+45            android:exported="false" />
+45-->[androidx.room:room-runtime:2.2.5] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\31a054f2b7516f3082406e681009f7ee\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+46
+47        <provider
+47-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\98d0bc0de79a57d285d2f4cbf1680ba9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+48            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+48-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\98d0bc0de79a57d285d2f4cbf1680ba9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+49            android:authorities="id.co.foodrecipe.lifecycle-process"
+49-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\98d0bc0de79a57d285d2f4cbf1680ba9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+50            android:exported="false"
+50-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\98d0bc0de79a57d285d2f4cbf1680ba9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+51            android:multiprocess="true" />
+51-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Raihan\.gradle\caches\transforms-2\files-2.1\98d0bc0de79a57d285d2f4cbf1680ba9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+52    </application>
+53
+54</manifest>
