@@ -1,20 +1,22 @@
 package id.co.foodrecipe.models
 
 
+import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
 import id.co.foodrecipe.models.ExtendedIngredient
+import kotlinx.android.parcel.Parcelize
+import kotlinx.android.parcel.RawValue
 
+@Parcelize
 data class Result(
     @SerializedName("aggregateLikes")
     val aggregateLikes: Int,
     @SerializedName("cheap")
     val cheap: Boolean,
-    @SerializedName("cuisines")
-    val cuisines: List<Any>,
     @SerializedName("dairyFree")
     val dairyFree: Boolean,
     @SerializedName("extendedIngredients")
-    val extendedIngredients: List<ExtendedIngredient>,
+    val extendedIngredients: @RawValue List<ExtendedIngredient>,
     @SerializedName("glutenFree")
     val glutenFree: Boolean,
     @SerializedName("id")
@@ -41,4 +43,4 @@ data class Result(
     val vegetarian: Boolean,
     @SerializedName("veryHealthy")
     val veryHealthy: Boolean
-)
+): Parcelable

@@ -6,6 +6,7 @@ import androidx.datastore.preferences.*
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.android.scopes.ActivityRetainedScoped
 import id.co.foodrecipe.util.Constans
+import id.co.foodrecipe.util.Constans.Companion.PREFERENCES_BACK_ONLINE
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.map
@@ -19,11 +20,18 @@ class DataStoreRepository @Inject constructor(@ApplicationContext private val co
         val selectedMealTypeId = preferencesKey<Int>(Constans.PREFERENCES_MEAL_TYPE_ID)
         val selectedDietType = preferencesKey<String>(Constans.PREFERENCES_DIET_TYPE)
         val selectedDietTypeId = preferencesKey<Int>(Constans.PREFERENCES_DIET_TYPE_ID)
+        val backOnline = preferencesKey<Boolean>(PREFERENCES_BACK_ONLINE)
     }
 
     private val dataStore: DataStore<Preferences> = context.createDataStore(
             name = Constans.PREFERENCES_NAME
     )
+
+    suspend fun saveBackOnline(backOnline: Boolean){
+        dataStore.edit {preferences ->
+            preferences[PreferencesKeys.backOnline] = backOnline
+        }
+    }
 
     suspend fun saveMealAndDietType(mealType: String, mealTypeId: Int, dietType: String, dietTypeId: Int){
         dataStore.edit { preferences ->
@@ -53,6 +61,19 @@ class DataStoreRepository @Inject constructor(@ApplicationContext private val co
                         selectedDietType,
                         selectedDietTypeId
                 )
+            }
+
+    val readBackOnline: Flow<Boolean> = dataStore.data
+            .catch { exception ->
+                if (exception is IOException){
+                    emit(emptyPreferences())
+                }else{
+                    throw exception
+                }
+            }
+            .map { prefrences ->
+                val backOnline = prefrences[PreferencesKeys.backOnline] ?: false
+                backOnline
             }
 
 }

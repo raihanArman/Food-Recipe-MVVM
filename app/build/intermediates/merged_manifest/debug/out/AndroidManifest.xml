@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="23"
+        android:minSdkVersion="24"
         android:targetSdkVersion="30" />
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -25,8 +25,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.FoodRecipe" >
+        <activity
+            android:name="id.co.foodrecipe.ui.DetailActivity"
+            android:label="Details"
+            android:theme="@style/DetailActivityStyle" />
         <activity android:name="id.co.foodrecipe.ui.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

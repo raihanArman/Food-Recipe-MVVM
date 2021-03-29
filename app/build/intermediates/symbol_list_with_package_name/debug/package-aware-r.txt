@@ -1041,6 +1041,7 @@ color abc_tint_spinner
 color abc_tint_switch_track
 color accent_material_dark
 color accent_material_light
+color actionBarBackgroundColor
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
 color background_floating_material_dark
@@ -1745,6 +1746,7 @@ drawable ic_baseline_favorite_24
 drawable ic_baseline_image_24
 drawable ic_baseline_menu_book_24
 drawable ic_baseline_restaurant_24
+drawable ic_baseline_search_24
 drawable ic_baseline_sentiment_very_dissatisfied_24
 drawable ic_baseline_star_24
 drawable ic_clock_black_24dp
@@ -1857,6 +1859,7 @@ id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
 id action_recipesBottomSheetFragment_to_recipesFragment
+id action_recipesFragment_to_detailActivity
 id action_recipesFragment_to_recipesBottomSheetFragment
 id action_text
 id actions
@@ -1868,6 +1871,7 @@ id all
 id always
 id animateToEnd
 id animateToStart
+id appBar
 id appetizer_chip
 id apply_btn
 id asConfigured
@@ -1939,6 +1943,7 @@ id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
 id dessert_chip
+id detailActivity
 id dialog_button
 id dietType_chipGroup
 id dietType_scrollView
@@ -2055,6 +2060,7 @@ id material_value_index
 id mealType_chipGroup
 id mealType_scrollView
 id media_actions
+id menu_search
 id message
 id middle
 id mini
@@ -2244,6 +2250,7 @@ id titleDividerNoCustom
 id title_template
 id title_textview
 id toggle
+id toolbar
 id top
 id topPanel
 id top_to_bottom
@@ -2272,6 +2279,7 @@ id view3
 id view4
 id view5
 id view6
+id viewPager
 id view_offset_helper
 id visible
 id visible_removing_fragment_view_tag
@@ -2342,6 +2350,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_detail
 layout activity_main
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -2444,6 +2453,7 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu bottom_nav_menu
+menu recipes_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation my_nav
@@ -2781,6 +2791,9 @@ style CardView
 style CardView_Dark
 style CardView_Light
 style CustomChipStyle
+style CustomTabLayoutStyle
+style CustomTabTextStyle
+style DetailActivityStyle
 style EmptyTheme
 style MaterialAlertDialog_MaterialComponents
 style MaterialAlertDialog_MaterialComponents_Body_Text
