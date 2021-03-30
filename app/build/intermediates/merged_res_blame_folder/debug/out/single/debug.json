@@ -92,6 +92,10 @@
         "source": "F:\\Food-Recipe-MVVM\\app\\src\\main\\res\\drawable\\ic_baseline_favorite_24.xml"
     },
     {
+        "merged": "F:\\Food-Recipe-MVVM\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_instructions.xml.flat",
+        "source": "F:\\Food-Recipe-MVVM\\app\\src\\main\\res\\layout\\fragment_instructions.xml"
+    },
+    {
         "merged": "F:\\Food-Recipe-MVVM\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "F:\\Food-Recipe-MVVM\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
@@ -122,6 +126,14 @@
     {
         "merged": "F:\\Food-Recipe-MVVM\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_food_joke.xml.flat",
         "source": "F:\\Food-Recipe-MVVM\\app\\src\\main\\res\\layout\\fragment_food_joke.xml"
+    },
+    {
+        "merged": "F:\\Food-Recipe-MVVM\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_ingridients.xml.flat",
+        "source": "F:\\Food-Recipe-MVVM\\app\\src\\main\\res\\layout\\fragment_ingridients.xml"
+    },
+    {
+        "merged": "F:\\Food-Recipe-MVVM\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_overview.xml.flat",
+        "source": "F:\\Food-Recipe-MVVM\\app\\src\\main\\res\\layout\\fragment_overview.xml"
     },
     {
         "merged": "F:\\Food-Recipe-MVVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_eco_24.xml.flat",

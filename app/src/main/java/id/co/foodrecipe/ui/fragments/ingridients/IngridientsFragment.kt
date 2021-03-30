@@ -1,4 +1,4 @@
-package id.co.foodrecipe.ui.fragments
+package id.co.foodrecipe.ui.fragments.ingridients
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
