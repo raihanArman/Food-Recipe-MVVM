@@ -1057,6 +1057,7 @@ color bright_foreground_material_dark
 color bright_foreground_material_light
 color button_material_dark
 color button_material_light
+color cardBackgroundColor
 color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
@@ -1230,6 +1231,7 @@ color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
+color strokeColor
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
 color switch_thumb_material_dark
@@ -1739,7 +1741,9 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable gradient_overlay
 drawable ic_baseline_access_time_24
+drawable ic_baseline_check_circle_24
 drawable ic_baseline_eco_24
 drawable ic_baseline_emoji_emotions_24
 drawable ic_baseline_favorite_24
@@ -1901,6 +1905,8 @@ id center_horizontal
 id center_vertical
 id chain
 id chains
+id cheap_imageView
+id cheap_textView
 id checkbox
 id checked
 id chip
@@ -1928,6 +1934,8 @@ id counterclockwise
 id custom
 id customPanel
 id cut
+id dailyfree_imageView
+id dailyfree_textView
 id dataBinding
 id date_picker_actions
 id decelerate
@@ -1991,7 +1999,10 @@ id fragment_container_view_tag
 id ghost_view
 id ghost_view_holder
 id gluten_free_chip
+id glutenfree_imageView
+id glutenfree_textView
 id gone
+id gradient_overview
 id graph
 id graph_wrap
 id group_divider
@@ -1999,6 +2010,8 @@ id grouping
 id groups
 id guideline
 id header_title
+id healty_imageView
+id healty_textView
 id heart_textview
 id hideable
 id home
@@ -2013,6 +2026,16 @@ id image
 id imageView2
 id imageView3
 id info
+id ingredients_background
+id ingredients_cardView
+id ingredients_consistency
+id ingredients_count
+id ingredients_imageView
+id ingredients_name
+id ingredients_original
+id ingredients_recyclerview
+id ingredients_unit
+id instruction_webview
 id invisible
 id inward
 id italic
@@ -2030,12 +2053,15 @@ id leaf_textview
 id left
 id leftToRight
 id left_to_right
+id like_imageView
+id like_textView
 id line1
 id line3
 id linear
 id listMode
 id list_item
 id main_course_chip
+id main_imageView
 id marinade_chip
 id masked
 id material_clock_display
@@ -2214,6 +2240,7 @@ id stop
 id stretch
 id submenuarrow
 id submit_area
+id summary_textView
 id tabMode
 id tab_layout
 id tag_accessibility_actions
@@ -2246,9 +2273,12 @@ id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
 id time
+id time_imageView
+id time_textView
 id title
 id titleDividerNoCustom
 id title_template
+id title_textView
 id title_textview
 id toggle
 id toolbar
@@ -2273,7 +2303,11 @@ id unlabeled
 id up
 id useLogo
 id vegan_chip
+id vegan_imageView
+id vegan_textView
 id vegetarian_chip
+id vegetarian_imageView
+id vegetarian_textView
 id view
 id view2
 id view3
@@ -2284,6 +2318,7 @@ id viewPager
 id view_offset_helper
 id visible
 id visible_removing_fragment_view_tag
+id white_background
 id whole_chip
 id withText
 id withinBounds
@@ -2376,6 +2411,7 @@ layout fragment_instructions
 layout fragment_overview
 layout fragment_recipes
 layout fragment_recipes_bottom_sheet
+layout ingredients_row_layout
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider

@@ -1,5 +1,9 @@
 [
     {
+        "merged": "F:\\Food-Recipe-MVVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gradient_overlay.xml.flat",
+        "source": "F:\\Food-Recipe-MVVM\\app\\src\\main\\res\\drawable\\gradient_overlay.xml"
+    },
+    {
         "merged": "F:\\Food-Recipe-MVVM\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "F:\\Food-Recipe-MVVM\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
@@ -22,6 +26,10 @@
     {
         "merged": "F:\\Food-Recipe-MVVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_emoji_emotions_24.xml.flat",
         "source": "F:\\Food-Recipe-MVVM\\app\\src\\main\\res\\drawable\\ic_baseline_emoji_emotions_24.xml"
+    },
+    {
+        "merged": "F:\\Food-Recipe-MVVM\\app\\build\\intermediates\\res\\merged\\debug\\layout_ingredients_row_layout.xml.flat",
+        "source": "F:\\Food-Recipe-MVVM\\app\\src\\main\\res\\layout\\ingredients_row_layout.xml"
     },
     {
         "merged": "F:\\Food-Recipe-MVVM\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detail.xml.flat",
@@ -94,6 +102,10 @@
     {
         "merged": "F:\\Food-Recipe-MVVM\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_instructions.xml.flat",
         "source": "F:\\Food-Recipe-MVVM\\app\\src\\main\\res\\layout\\fragment_instructions.xml"
+    },
+    {
+        "merged": "F:\\Food-Recipe-MVVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_check_circle_24.xml.flat",
+        "source": "F:\\Food-Recipe-MVVM\\app\\src\\main\\res\\drawable\\ic_baseline_check_circle_24.xml"
     },
     {
         "merged": "F:\\Food-Recipe-MVVM\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",

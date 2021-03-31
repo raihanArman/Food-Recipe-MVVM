@@ -85,10 +85,8 @@
                     android:layout_marginBottom="30dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="@+id/heart_textview"
-                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="@+id/heart_textview"
                     app:layout_constraintTop_toBottomOf="@+id/description_textview"
-                    app:layout_constraintVertical_bias="0.067"
                     app:srcCompat="@drawable/ic_baseline_favorite_24"
                     app:tint="@color/red" />
 
