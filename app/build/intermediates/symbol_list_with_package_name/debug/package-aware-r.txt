@@ -1856,6 +1856,7 @@ id action_bar_title
 id action_container
 id action_context_bar
 id action_divider
+id action_favoriteRecipesFragment_to_detailActivity
 id action_image
 id action_menu_divider
 id action_menu_presenter
@@ -1952,6 +1953,7 @@ id design_menu_item_text
 id design_navigation_view
 id dessert_chip
 id detailActivity
+id detail_layout
 id dialog_button
 id dietType_chipGroup
 id dietType_scrollView
@@ -1983,7 +1985,17 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fade
+id favoriteRecipeRecyclerView
 id favoriteRecipesFragment
+id favoriteRecipesRowLayout
+id favorite_clock_textview
+id favorite_description_textview
+id favorite_heart_textview
+id favorite_leaf_imageview
+id favorite_leaf_textview
+id favorite_recipes_imageview
+id favorite_row_cardView
+id favorite_title_textview
 id fill
 id fill_horizontal
 id fill_vertical
@@ -2128,6 +2140,8 @@ id nav_host_fragment_container
 id navigation_header_container
 id never
 id noScroll
+id no_data_imageView
+id no_favorite_textView
 id none
 id normal
 id notification_background
@@ -2182,6 +2196,7 @@ id salad_chip
 id sauce_chip
 id save_non_transition_alpha
 id save_overlay_view
+id save_to_favorite_menu
 id sawtooth
 id scale
 id screen
@@ -2404,6 +2419,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout favorite_recipes_row_layout
 layout fragment_favorite_recipes
 layout fragment_food_joke
 layout fragment_ingridients
@@ -2493,6 +2509,7 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu bottom_nav_menu
+menu details_menu
 menu recipes_menu
 mipmap ic_launcher
 mipmap ic_launcher_round

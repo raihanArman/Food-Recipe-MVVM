@@ -6,7 +6,11 @@ import javax.annotation.Generated;
 public class BR {
   public static final int _all = 0;
 
-  public static final int mainViewModel = 1;
+  public static final int favoriteEntity = 1;
 
-  public static final int result = 2;
+  public static final int mAdapter = 2;
+
+  public static final int mainViewModel = 3;
+
+  public static final int result = 4;
 }

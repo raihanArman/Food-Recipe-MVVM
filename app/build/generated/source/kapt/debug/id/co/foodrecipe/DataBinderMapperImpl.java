@@ -6,6 +6,8 @@ import android.view.View;
 import androidx.databinding.DataBinderMapper;
 import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
+import id.co.foodrecipe.databinding.FavoriteRecipesRowLayoutBindingImpl;
+import id.co.foodrecipe.databinding.FragmentFavoriteRecipesBindingImpl;
 import id.co.foodrecipe.databinding.FragmentRecipesBindingImpl;
 import id.co.foodrecipe.databinding.RecipesRowLayoutBindingImpl;
 import java.lang.IllegalArgumentException;
@@ -21,13 +23,19 @@ import javax.annotation.Generated;
 
 @Generated("Android Data Binding")
 public class DataBinderMapperImpl extends DataBinderMapper {
-  private static final int LAYOUT_FRAGMENTRECIPES = 1;
+  private static final int LAYOUT_FAVORITERECIPESROWLAYOUT = 1;
 
-  private static final int LAYOUT_RECIPESROWLAYOUT = 2;
+  private static final int LAYOUT_FRAGMENTFAVORITERECIPES = 2;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(2);
+  private static final int LAYOUT_FRAGMENTRECIPES = 3;
+
+  private static final int LAYOUT_RECIPESROWLAYOUT = 4;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(4);
 
   static {
+    INTERNAL_LAYOUT_ID_LOOKUP.put(id.co.foodrecipe.R.layout.favorite_recipes_row_layout, LAYOUT_FAVORITERECIPESROWLAYOUT);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(id.co.foodrecipe.R.layout.fragment_favorite_recipes, LAYOUT_FRAGMENTFAVORITERECIPES);
     INTERNAL_LAYOUT_ID_LOOKUP.put(id.co.foodrecipe.R.layout.fragment_recipes, LAYOUT_FRAGMENTRECIPES);
     INTERNAL_LAYOUT_ID_LOOKUP.put(id.co.foodrecipe.R.layout.recipes_row_layout, LAYOUT_RECIPESROWLAYOUT);
   }
@@ -41,6 +49,18 @@ public class DataBinderMapperImpl extends DataBinderMapper {
         throw new RuntimeException("view must have a tag");
       }
       switch(localizedLayoutId) {
+        case  LAYOUT_FAVORITERECIPESROWLAYOUT: {
+          if ("layout/favorite_recipes_row_layout_0".equals(tag)) {
+            return new FavoriteRecipesRowLayoutBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for favorite_recipes_row_layout is invalid. Received: " + tag);
+        }
+        case  LAYOUT_FRAGMENTFAVORITERECIPES: {
+          if ("layout/fragment_favorite_recipes_0".equals(tag)) {
+            return new FragmentFavoriteRecipesBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_favorite_recipes is invalid. Received: " + tag);
+        }
         case  LAYOUT_FRAGMENTRECIPES: {
           if ("layout/fragment_recipes_0".equals(tag)) {
             return new FragmentRecipesBindingImpl(component, view);
@@ -98,19 +118,23 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerBrLookup {
-    static final SparseArray<String> sKeys = new SparseArray<String>(3);
+    static final SparseArray<String> sKeys = new SparseArray<String>(5);
 
     static {
       sKeys.put(0, "_all");
-      sKeys.put(1, "mainViewModel");
-      sKeys.put(2, "result");
+      sKeys.put(1, "favoriteEntity");
+      sKeys.put(2, "mAdapter");
+      sKeys.put(3, "mainViewModel");
+      sKeys.put(4, "result");
     }
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(2);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(4);
 
     static {
+      sKeys.put("layout/favorite_recipes_row_layout_0", id.co.foodrecipe.R.layout.favorite_recipes_row_layout);
+      sKeys.put("layout/fragment_favorite_recipes_0", id.co.foodrecipe.R.layout.fragment_favorite_recipes);
       sKeys.put("layout/fragment_recipes_0", id.co.foodrecipe.R.layout.fragment_recipes);
       sKeys.put("layout/recipes_row_layout_0", id.co.foodrecipe.R.layout.recipes_row_layout);
     }
