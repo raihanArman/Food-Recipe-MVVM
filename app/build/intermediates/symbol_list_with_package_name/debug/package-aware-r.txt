@@ -1058,6 +1058,7 @@ color bright_foreground_material_light
 color button_material_dark
 color button_material_light
 color cardBackgroundColor
+color cardBackgroundLightColor
 color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
@@ -1072,6 +1073,8 @@ color chip_text_color
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
+color contextualActionBarColor
+color contextualStatusBarColor
 color dark
 color darkGray
 color darker
@@ -1231,6 +1234,7 @@ color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
+color statusBarColor
 color strokeColor
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
@@ -1744,6 +1748,7 @@ drawable design_snackbar_background
 drawable gradient_overlay
 drawable ic_baseline_access_time_24
 drawable ic_baseline_check_circle_24
+drawable ic_baseline_delete_24
 drawable ic_baseline_eco_24
 drawable ic_baseline_emoji_emotions_24
 drawable ic_baseline_favorite_24
@@ -1943,6 +1948,8 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id deleteAll_favorite_recipe_menu
+id delete_favorite_recipe_menu
 id deltaRelative
 id dependency_ordering
 id description_textview
@@ -2510,6 +2517,8 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu bottom_nav_menu
 menu details_menu
+menu favorite_contextual_menu
+menu favorite_recipe_menu
 menu recipes_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
